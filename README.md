@@ -5,6 +5,16 @@ This App was developed with mainly two intentions:
 - To help the open source community by bringing the benifits offered by [Code Triage](https://www.codetriage.com)
 - To familiarize myself with React Native, EXPO SDK, Google Cloud functions and Github OAuth with react native app.
 
+### What I used
+- **Github OAuth** for logging into the App and firestore.
+- **GraphQL** to query and post data from and to GitHub.
+- **Google Cloud Functions** to fetch trending repository as Github does not offer any GraphQL query for this.
+- **REST** to query contributors list as I could not find the equivalent GraphQL query by github for this.
+- **Firestore** to store the trending repository which will be fetched by the app.
+- **React Navigation** to navigate through the screens.
+- **React Hooks** for state management.
+- **RecyclerListView** by `Flipkart` to optimize list displays.
+ 
 ## Important
 
 I've tried to keep the names of various components as self descriptive as possible to keep the code readable by anyone.
