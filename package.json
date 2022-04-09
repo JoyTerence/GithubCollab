@@ -12,7 +12,7 @@
     "expo-app-auth": "~8.0.0",
     "expo-secure-store": "~8.0.0",
     "firebase": "^7.6.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "punycode": "^2.1.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
